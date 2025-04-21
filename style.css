@@ -1,0 +1,115 @@
+/*estilo de body*/
+body {
+  font-family: arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8ff;
+}
+
+/*estilo de emcabezado*/
+.head {
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+/*img gota*/
+.head img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+/*logo head*/
+.head .logo {
+  float: left;
+  /*alinea logo a la izquierda*/
+  font-size: 18px;
+  /*tamaño de fuente*/
+  font-weight: bold;
+  /*texto negrita*/
+  color: #333;
+}
+
+/*menu navegacion*/
+.head .menu {
+  float: right;
+  /*alineacion derecha*/
+}
+
+/*links de menu*/
+.head .menu a {
+  margin-top: 10px;
+  text-decoration: none;
+  /*quitar linea subrayada*/
+  color: gray;
+  /*color enlance*/
+  margin-left: 15px;
+  /*espacio entre enlaces*/
+}
+
+/*boton de menu*/
+.head .menu .boton1 {
+  background-color: #7c9ecc;
+  /*color de fondo*/
+  /*color de letra*/
+  padding: 10px 15px;
+  /*espacio interior del boton*/
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+/*contenido principal*/
+.contenido-principal {
+  margin: 20px;
+  /*espacio alrededor del contenido*/
+  overflow: hidden;
+}
+
+/*texto principal*/
+.texto {
+  float: left;
+  /*alinear texto izquierda*/
+  width: 60%;
+}
+
+.texto h1 {
+  margin-top: 200px;
+  font-size: 32px;
+  /*tamaño fuente*/
+  color: gray;
+}
+
+.texto p {
+  /*margin-top: 180px;*/
+  color: #666;
+  margin: 15px 0;
+  /*espacio entre parrafo*/
+}
+
+.texto .boton {
+  background-color: #7c9ecc;
+  /*colo de fondo*/
+  color: white;
+  padding: 15px 20px;
+  /*espacio interno*/
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*imagen principal*/
+.imagen {
+  float: right;
+  /*alinear imagen a la derecha*/
+  width: 35%;
+  text-align: center;
+  /*centrar el contenido*/
+  margin-top: 100px;
+}
+
+.imagen img {
+  width: 100%;
+  /*height: auto;*/
+}
